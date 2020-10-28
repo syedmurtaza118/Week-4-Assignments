@@ -1,0 +1,28 @@
+pseudocode
+
+dictionary info
+info = enterInputs()
+
+float total = calculateTotal(info['score1'],info['score2'])
+
+print('lastName: ',info['name'])
+print('Score 1: ',info['score1'])
+print('Score 2: ',info['score2'])
+print('Total: ',total)
+
+
+function enterInputs():
+name = input'Enter the last name'
+score1 = input'Enter the score1'
+score2 = input'Enter the score2'
+  
+dictionary info
+info['name'] = name
+info['score1'] = score1
+info['score2'] = score2
+  
+return info
+  
+function calculateInfo(score1, score2):
+total = 60% of score2 + 40% of score1
+return total
